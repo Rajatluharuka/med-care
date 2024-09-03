@@ -1,0 +1,65 @@
+.cart_medicine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #2a73c2;
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+
+.cart_medicine h2 {
+  margin: 0 0 0.5rem 0;
+  color: #363636;
+}
+
+.summary {
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: bold;
+  color: #2a73c2;
+}
+
+.amount {
+  font-weight: bold;
+  border: 1px solid #ccc;
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  color: #363636;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .actions {
+    flex-direction: row;
+  }
+}
+
+.cart_medicine button {
+  font: inherit;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #2a73c2;
+  border: 1px solid #2a73c2;
+  width: 3rem;
+  text-align: center;
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin: 0.25rem;
+}
+
+.cart_medicine button:hover,
+.cart_medicine button:active {
+  background-color: #2a73c2;
+  color: white;
+}
