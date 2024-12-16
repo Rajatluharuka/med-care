@@ -34,7 +34,7 @@ const MedicineItemForm = (props) => {
         ></input>
       </div>
 
-      <button>+Add</button>
+      <button>Add</button>
     </form>
   );
 };
